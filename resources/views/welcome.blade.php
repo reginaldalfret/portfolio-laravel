@@ -18,6 +18,33 @@
         @endif
     </head>
     <body class="bg-[#FDFDFC] dark:bg-[#0a0a0a] text-[#1b1b18] flex p-6 lg:p-8 items-center lg:justify-center min-h-screen flex-col">
+
+<!-- ========================================================================= -->
+<!-- 12 STACKS. 1 PRODUCT. ECOSYSTEM CONTEXT BANNER                            -->
+<!-- ========================================================================= -->
+<header class="w-full bg-neutral-950/95 border-b border-white/10 px-4 py-2.5 backdrop-blur-md sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-3 text-xs font-mono">
+    <div class="flex items-center gap-2">
+      <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+      <span class="text-neutral-400">PART OF THE <strong class="text-white">12 STACKS. 1 PRODUCT.</strong> EXPERIMENT</span>
+      <span class="hidden sm:inline text-neutral-600">|</span>
+      <span class="hidden sm:inline px-2 py-0.5 rounded bg-cyan-500/10 text-cyan-300 border border-cyan-500/30">
+        Current Implementation: <strong class="text-white">Laravel 11</strong>
+      </span>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="https://reginaldalfret.tech" class="text-neutral-400 hover:text-white transition-colors flex items-center gap-1">
+        <span>← Personal Portfolio</span>
+      </a>
+      <span class="text-neutral-600">·</span>
+      <a href="https://reginaldalfret.tech/lab" class="text-cyan-400 hover:text-cyan-300 transition-colors font-semibold flex items-center gap-1">
+        <span>⚡ Back to Engineering Lab</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+
         <header class="w-full lg:max-w-4xl max-w-[335px] text-sm mb-6 not-has-[nav]:hidden">
             @if (Route::has('login'))
                 <nav class="flex items-center justify-end gap-4">
